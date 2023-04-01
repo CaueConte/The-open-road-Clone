@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(34, 105, 17);
+    align-content: center;
+    padding-top: 200px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+
+div#div1{
+    height: 500px;
+    width: 900px;
+    background-color: white;
+    
+    /* padding-top: 30px; */
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+img{
+    padding-left: 125px;
+    pointer-events: none;
+}
+div#div2{
+    height: 320px;
+    width: 700px;
+    border: 3px solid rgb(52, 169, 35);
+    /* padding-top: 150px; */
+    
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#titulo{
+    text-align: center;
+    color: rgb(21, 131, 21);
+    font-size: 30px;
+}
+
+/* separar botao depois */
+p{
+    text-align: center;
+}
+
+p#puser{
+    font-size: 30px;
+    color: rgb(21, 131, 21);
+}
+
+input#iuser{
+    width: 250px;
+    height: 30px;
+    font-size: 28px;
+    background-color: rgb(21, 131, 21);
+    border: 0px;
+    color: white;
+
+}
+input#ipass{
+    width: 250px;
+    height: 30px;
+    font-size: 28px;
+    background-color: rgb(21, 131, 21);
+    border: 0px;
+    color: white;
+}
+
+p#ppass{
+    font-size: 30px;
+    color: rgb(21, 131, 21);
+    padding-right: 55px;
+}
+
+input#buttonlog{
+    background-color: rgb(21, 131, 21);
+    border: 0px;
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+input#buttonlog:hover{
+    background-color: rgb(15, 99, 15);
+}
+
+input#buttonlog:active{
+    background-color: rgb(12, 77, 12);
+}
+
+div#buttonlogindiv{
+    padding-left: 20px;
+}
